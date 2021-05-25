@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Festival</title>
+  <meta name="discription" content="毎年恒例の野外フェスのご案内">
+  <link rel="icon" type="image/svg" href="images/favicon.svg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <a class="logo" href="#concept">Music Festival</a>
+      <nav>
+        <button class="btn-menu">Menu</button>
+        <ul class="main-nav">
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="#musician">Musican</a></li>
+          <li><a href="#ticket">Ticket</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="concept">
+    <div class="wrapper">
+      <h1>Music Festival</h1>
+      <p class="concept-date">2021. 11. 7 13:00 - 18:00</p>
+      <p>
+        毎年恒例の野外フェス！ Music Festival。
+        今年は新たなゲストを迎えて、より盛り上がろう！
+        参加料金は無料！お気軽にご参加ください。
+      </p>
+    </div>
+  </section>
+
+  <section id="topics" class="wrapper">
+    <h2>Topics</h2>
+    <p>
+      Music Festivalは、音楽やキャンプを楽しみたい人たちが集合する場所です。
+      毎年恒例で、多くの方々に楽しんでもらっています。
+      新しいゲストやイベントで、かけがえのない思い出をここで創りませんか？
+      仲間と交流しながら、新しい気付きや出会い、可能性を広げていきましょう！
+    </p>
+    <img src="images/topics_page.jpg" alt="">
+  </section>
+
+  <section id="musician" class="wrapper">
+    <h2>Musicain</h2>
+    <div class="musician-list">
+      <div class="musician-text">
+        <h3>パフォーマー</h3>
+        <p>
+          海外からのスペシャルゲスト。海外での人気は言わずもしれた所だが、今回初めて出演してくれることに！
+          当日はあの曲も披露してくれるかも！
+        </p>
+      </div>
+      <img src="images/musician1.jpg" alt="白人さん">
+    </div>
+    <div class="musician-list">
+      <div class="musician-text">
+        <h3>テクニシャン</h3>
+        <p>
+          日本でも有名なあの人が参戦。このMusic Festivalを海外にも知らしめてくれた功績は感謝のしようもないくらい！
+          今回は何を披露してくれるのかお楽しみに！
+        </p>
+      </div>
+      <img src="images/musician2.jpg" alt="黒人さん">
+    </div>
+  </section>
+
+  <section id="ticket">
+    <h2>Ticket</h2>
+    <form class="ticket-form" action="#">
+      <label>Name</label>
+      <input class="ticket-field" type="text" placeholder="例：大本真奈美">
+      <label>Email</label>
+      <input class="ticket-field" type="email" placeholder="例：example.com">
+      <input class="ticket-btn" type="submit" value="Join Now!">
+    </form>
+    
+    <div class="footer wrapper">
+      <p>
+        <a href="mailto:info@example.com">お問い合せ</a> / <small>&copy; 2021 Music Festival</small>
+      </p>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
